@@ -1,0 +1,305 @@
+body {
+  font-family: 'Montserrat';
+}
+
+
+.nav-color,
+.navbar-bg,
+footer {
+  background: black;
+}
+
+.nav-item {
+  margin-right: 24px;
+  font-weight: 200;
+}
+
+.nav-item.active a {
+  color: #f9b234 !important;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #f9b234;
+}
+
+.nav-link span {
+  color: #f9b234 !important;
+  font-weight: 600;
+}
+
+
+
+
+
+/* Carousel */
+
+.carousel-caption {
+  padding-bottom: 230px;
+  font-family: 'Poppins';
+}
+
+.carousel-caption h2 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+.carousel-caption a {
+  background: #f9b234;
+  padding: 15px 35px;
+  display: inline-block;
+  margin-top: 15px;
+  color: white;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.carousel-caption a:hover {
+  color: white;
+  background: #f7c774;
+}
+
+.features h3,
+.designer h3,
+.similar-product h3,
+.cart-header h3,
+.checkout-modal-success h3,
+.category h3 {
+  font-family: 'Lora';
+  color: #000000;
+  font-weight: bold;
+}
+
+.features p,
+.designer p,
+footer p,
+.similar-product p,
+.cart-header p,
+.checkout-modal-success p,
+.category p {
+  font-weight: 200;
+  color: #B7B7B7;
+}
+
+.figure h5 {
+  color: #171717;
+}
+
+.figure-img {
+  position: relative;
+}
+
+.figure-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+  opacity: 1;
+}
+
+
+
+/* Breadcrumb */
+
+.breadcrumb-top {
+  margin-top: 100px;
+}
+
+.cart-breadcrumb {
+  margin-top: 50px;
+}
+
+/* single product */
+
+.product-thumbnail-container {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-50px);
+}
+
+.product-thumbnail-container a:hover {
+  text-decoration: none;
+}
+
+.btn-product {
+  margin: 50px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EAEAEF;
+}
+
+.btn-product .btn {
+  display: block;
+  margin: 10px 0;
+}
+
+.designed-by h5 {
+  font-size: 14px;
+  font-weight: 200;
+  color: #B7B7B7;
+  margin-bottom: 20px;
+}
+
+.designed-by h4 {
+  font-size: 18px;
+  color: #171717;
+}
+
+.designed-by p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #171717;
+}
+
+.designed-by p span {
+  color: #B7B7B7;
+}
+
+
+/* Product Description */
+.product-description {
+  background-color: #F6F7FB;
+  height: 350px;
+}
+
+.product-description .tab-content {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.product-description .tab-content p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #868686;
+  line-height: 28px;
+}
+
+.product-review {
+  height: 330px;
+  overflow: scroll;
+}
+
+.product-review h5 {
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.product-review p {
+  font-size: 14px !important;
+}
+
+
+.similar-product {
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+
+/* figure-caption */
+.gambar-1 {
+  overflow: hidden;
+}
+
+.gambar-1 img {
+  width: 100%;
+  cursor: zoom-in;
+}
+
+.gambar-1:hover {
+  transform: scale(1.2);
+  transition: all .7s;
+}
+
+.gambar-2 {
+  overflow: hidden;
+}
+
+.gambar-2 img {
+  width: 100%;
+  cursor: zoom-in;
+}
+
+.gambar-2:hover {
+  transform: scale(1.2);
+  transition: all .7s;
+}
+
+.gambar-3 {
+  overflow: hidden;
+}
+
+.gambar-3 img {
+  width: 100%;
+  cursor: zoom-in;
+}
+
+.gambar-3:hover {
+  transform: scale(1.2);
+  transition: all .7s;
+}
+
+
+.checkout-detail {
+  background-color: #F6F7FB;
+  border: 1px solid #EAEAEA;
+  color: #171717;
+}
+
+@media only screen and (max-width: 991px) {
+  .carousel-caption {
+    padding-bottom: 350px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-brand {
+    padding: 10px 10px;
+  }
+
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 50px;
+  }
+
+  .carousel-caption {
+    padding-bottom: 80px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 25px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+
+  .carousel-caption a {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .carousel-caption {
+    padding-bottom: 50px !important;
+  }
+}
